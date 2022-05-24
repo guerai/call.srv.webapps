@@ -1,7 +1,7 @@
 FROM nginx:1.19.7-alpine
 EXPOSE 8080
 ENV USER=nginx_user
-ENV GROUP_NAME= nginx
+ENV GROUP_NAME=nginx
 ENV UID=1000
 ENV GID=2000
 
