@@ -11,6 +11,6 @@ RUN adduser --disabled-password --gecos "" --home "$(pwd)" --ingroup "$GROUP_NAM
 
 
 # Tell docker that all future commands should run as the appuser user
-USER "$USER"
+USER "$UID"
 
 COPY index.html /usr/share/nginx/html/index.html
